@@ -7,10 +7,10 @@ This is a general maintenance release that contains enhancements, bug fixes and 
 ## Bug Fixes
 
 ### MLA CSV download issue
-Fixed: The order in which the columns come out seems to be random with each individual download. For example, the ‘State’ column will be column G on one download and column B on the same download just executed again. This is only true for the attributes like State, Vintage, etc. The actual metrics appear in a consistent order at the end.
+Fixed: The order in which the attribute columns come out seems to be random with each individual download.
 
 ### Querybuilder CSV download issue
-Query builder CSV download in Sandbox prioritizes the attributes over the date when it orders the data.
+Fixed: Query builder CSV download prioritizes the attributes over the date when it orders the data.
 
 ### Report page error
 Resolving report errors caused due to household implementation
