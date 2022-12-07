@@ -1,5 +1,5 @@
 
-# Release Update – November 14th, 2022
+# Release Update – December 7th, 2022
 
 See what's new in AIMvision and what we are gradually roling out.
 This is a general maintenance release that contains enhancements, bug fixes and some new features. 
