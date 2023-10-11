@@ -1,10 +1,29 @@
 
-# Release Update – December 7th, 2022
+# Release Update – October 12, 2023
 
 See what's new in AIMvision and what we are gradually roling out.
 This is a general maintenance release that contains enhancements, bug fixes and some new features. 
 
-## Bug Fixes
+
+## Enhancement
+
+### Revenue Optimizer
+Empower strategic decision-making with real-time pricing insights using Revenue Optimizer, a dynamic pricing tool powered by TSG’s Acquiring Industry Metrics (AIM) platform. Access benchmarks for merchant effective rate, discount rate, per transaction fees, and account fees.
+Harness advanced tools for strategic pricing decisions with the enhanced capabilities of Revenue Optimizer API.
+
+### Acceptance of Terms & Conditions upon Initial Login
+Introducing a streamlined Terms and Conditions page that enhances user agreement processes. With the implementation of this feature, users are prompted to accept terms and conditions upon their initial login. Non-acceptance directs users to a required acceptance page, temporarily restricting navigation until the terms are acknowledged. Users confirm their agreement by checking a checkbox before pressing the accept button. In the event of declining the terms, users are automatically logged out. This enhancement ensures a smoother onboarding experience while maintaining compliance and clarity in user agreements.
+
+### Password Reset Page
+Introducing a dedicated page for handling password resets, ensuring a secure and streamlined process for users who forget their passwords.
+
+### Metric Hierarchy (Parent-Child)
+Description: [Provide a brief description of the Metric Hierarchy feature.]
+
+
+
+
+<!-- ## Bug Fixes
 
 ### Merchant Level Analysis CSV download issue
 The order in which the attribute columns come out seems to be random with each individual download. 
@@ -33,7 +52,7 @@ Fixed: The issue is fixed. All chart which were defaulted to `standalone` filter
 
 ### Merchant Level Analysis
 
-MLA output will now use household level data instead of individual store (standalone) level data.
+MLA output will now use household level data instead of individual store (standalone) level data. -->
 
 
 <footer><p style='text-align:center'>© The Strawhecker Group. All Rights Reserved.</p></footer>
