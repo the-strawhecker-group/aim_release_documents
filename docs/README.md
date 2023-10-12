@@ -18,7 +18,7 @@ Introducing a streamlined Terms and Conditions page that enhances user agreement
 Introducing a dedicated page for handling password resets, ensuring a secure and streamlined process for users who forget their passwords.
 
 ### Metric Hierarchy (Parent-Child)
-Description: [Provide a brief description of the Metric Hierarchy feature.]
+Introducing a new metric layout in the metric selection dropdowns on Query Builder and Chart Builder. The individual sub-components (child) are displayed and indented underneath its main rollup metric (parent). For example, Discount Revenue, Transaction Fee Revenue, and Other Processing Fee Revenues (child), which rollup into Gross Processing Revenue, are indented under Gross Processing Revenue (parent).
 
 
 
