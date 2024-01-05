@@ -1,58 +1,28 @@
 
-# Release Update – October 12, 2023
+# Release Update – January 4, 2024
 
 See what's new in AIMvision and what we are gradually roling out.
 This is a general maintenance release that contains enhancements, bug fixes and some new features. 
 
 
-## Enhancement
+## New Features & Enhancements
 
-### Revenue Optimizer
-Empower strategic decision-making with real-time pricing insights using Revenue Optimizer, a dynamic pricing tool powered by TSG’s Acquiring Industry Metrics (AIM) platform. Access benchmarks for merchant effective rate, discount rate, per transaction fees, and account fees.
-Harness advanced tools for strategic pricing decisions with the enhanced capabilities of Revenue Optimizer API.
+### Home Page Refresh: 
+We've revitalized the home page with a fresh look.
+Two new portfolio makeup charts have been added, offering deeper insights into portfolio compositions.
 
-### Acceptance of Terms & Conditions upon Initial Login
-Introducing a streamlined Terms and Conditions page that enhances user agreement processes. With the implementation of this feature, users are prompted to accept terms and conditions upon their initial login. Non-acceptance directs users to a required acceptance page, temporarily restricting navigation until the terms are acknowledged. Users confirm their agreement by checking a checkbox before pressing the accept button. In the event of declining the terms, users are automatically logged out. This enhancement ensures a smoother onboarding experience while maintaining compliance and clarity in user agreements.
+### Query Builder Update for Org Owners: 
+A new feature, “Always Use Latest Available Date,” option has been introduced to streamline data handling in Query Builder for organizational owners.
 
-### Password Reset Page
-Introducing a dedicated page for handling password resets, ensuring a secure and streamlined process for users who forget their passwords.
+### Enhanced User Onboarding: 
+New users will now find universal queries automatically added to their accounts, facilitating a smoother start.
 
-### Metric Hierarchy (Parent-Child)
-Introducing a new metric layout in the metric selection dropdowns on Query Builder and Chart Builder. The individual sub-components (child) are displayed and indented underneath its main rollup metric (parent). For example, Discount Revenue, Transaction Fee Revenue, and Other Processing Fee Revenues (child), which rollup into Gross Processing Revenue, are indented under Gross Processing Revenue (parent).
+### Dropdown Tooltips Enhancement: 
+Our dropdown menus have been updated to show selected items in the tooltips, enhancing clarity and user experience.
 
+## Bug Fixes
+Page Resizing Issue: We've addressed and resolved issues with page resizing that affected the Query Builder and the Home page, ensuring a smoother and more consistent user interface.
 
-
-
-<!-- ## Bug Fixes
-
-### Merchant Level Analysis CSV download issue
-The order in which the attribute columns come out seems to be random with each individual download. 
-Fixed:Now the output repesents the correct order.
-
-### Querybuilder CSV download issue
-Query builder CSV download prioritizes the attributes over the date when it orders the data.
-Fixed: The output now prioritizes the date followed by the attributes based on TSG internal orders.
-
-### Report page error
-The Report page in some cases were failing to load and edit properly. The issue happens when in old chart no filter value for Household/Standalone was selected or when an Attrition and Growth metric is selected with household filter value. 
-Note: With the new enhancement, The default for Standalone / Household attribute is changed to `household` from `standalone`.
-
-Fixed: The issue is fixed. All chart which were defaulted to `standalone` filter value is now using `all_merchants` filter values.
-
-#### Definition:
-    `Standalone` – When this option is selected, the metrics calculated at individual store level and 
-                   only the MIDs that are not part of chain are used in calculations.
-    `All Merchants` - When this option is selected, the metrics are calculated at individual store level 
-                    and both chained MIDs and non-chained MIDs are used in calculations.
-    `Household (default option)`  - When household is selected, the metrics are calculated at Household level,
-                    i.e. standalone stores are considered as a household with one store and chained stores 
-                    within a chain are combined together and considered as one single Household.  
-
-## Enhancement
-
-### Merchant Level Analysis
-
-MLA output will now use household level data instead of individual store (standalone) level data. -->
 
 
 <footer><p style='text-align:center'>© The Strawhecker Group. All Rights Reserved.</p></footer>
