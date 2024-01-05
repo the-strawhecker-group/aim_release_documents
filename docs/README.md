@@ -11,9 +11,6 @@ This is a general maintenance release that contains enhancements, bug fixes and 
 We've revitalized the home page with a fresh look.
 Two new portfolio makeup charts have been added, offering deeper insights into portfolio compositions.
 
-### Query Builder Update for Org Owners: 
-A new feature, “Always Use Latest Available Date,” option has been introduced to streamline data handling in Query Builder for organizational owners.
-
 ### Enhanced User Onboarding: 
 New users will now find universal queries automatically added to their accounts, facilitating a smoother start.
 
